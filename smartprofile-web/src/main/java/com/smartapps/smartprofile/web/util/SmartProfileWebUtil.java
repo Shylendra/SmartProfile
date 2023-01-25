@@ -24,10 +24,15 @@ public class SmartProfileWebUtil {
 	public static final String RETRIEVE_APPID_USERS = "api/profiles/appid/{appId}";
 	
 	public static final String UPDATE_USER_OPERATION = "Update user profile";
-	public static final String UPDATE_USER = "api/profiles/{id}";
+	public static final String UPDATE_USER = "api/profiles";
 	
 	public static final String DELETE_USER_OPERATION = "Delete user profile by id";
 	public static final String DELETE_USER = "api/profiles/{id}";
+
+	
+	/* SmartProfileController: Address service Settings */
+	public static final String RETRIEVE_ADDRESSES_OPERATION = "Retrieve addresses";
+	public static final String RETRIEVE_ADDRESSES = "api/profiles/addresses";
 
 	private SmartProfileWebUtil() {
 	}
