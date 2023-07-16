@@ -18,6 +18,7 @@ spec:
         - name: smartprofile-api
           image: shylendra2015/smartprofile-api:latest
           imagePullPolicy: Always
+          args: ["--spring.profiles.active=dev"]
           ports:
             - containerPort: 8085
 
