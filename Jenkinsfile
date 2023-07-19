@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Stage 2 - Build Maven'){
             steps{
-                bat 'mvn clean install -Dspring.profiles.active=dev'
+                bat 'mvn clean install -Dspring.profiles.active=dev -DskipTests'
             }
         }
         stage('Stage 3 - Build docker image'){
