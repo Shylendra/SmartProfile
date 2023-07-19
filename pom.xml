@@ -22,8 +22,16 @@
 	<java.version>1.8</java.version>
 	<checkstyle.skip>true</checkstyle.skip>
 	<jacoco.version>0.8.5</jacoco.version>
+	
+	<!-- Local library -->
+	<!-- 
+		<smart-library.version>1.0-SNAPSHOT</smart-library.version>
+		<smart-library.groupId>com.smartapps.smartlib</smart-library.groupId>
+	-->
+	
+	<!-- Jitpack/Cloud library -->
 	<smart-library.version>695cae52</smart-library.version>
-	<!-- <smart-library.version>1.0-SNAPSHOT</smart-library.version> -->
+	<smart-library.groupId>com.github.Shylendra</smart-library.groupId>
   </properties>
 
   <modules>  
